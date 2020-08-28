@@ -1,0 +1,26 @@
+{
+  "compilerOptions":{
+     "target":"ES2017",
+     "moduleResolution":"node",
+     "module":"commonjs",
+     "declaration": true,
+     "emitDecoratorMetadata":true,
+     "experimentalDecorators":true,
+     "noImplicitUseStrict":false,
+     "outDir":"build/",
+     "baseUrl":"src/app.ts",
+     "listFiles":false,
+     "noEmitHelpers":false,
+     "noImplicitReturns": true,
+     "strict": true,
+     "allowJs": true,
+     "suppressImplicitAnyIndexErrors": false
+  },
+  "include":[
+     "src/**/*.ts"
+  ],
+  "exclude":[
+     "node_modules"
+  ],
+  "compileOnSave":false
+}
